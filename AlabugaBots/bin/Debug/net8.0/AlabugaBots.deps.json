@@ -1,0 +1,255 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AlabugaBots/1.0.0": {
+        "dependencies": {
+          "MinimalTelegramBot": "0.0.11",
+          "MinimalTelegramBot.Localization": "0.0.11",
+          "MinimalTelegramBot.StateMachine": "0.0.11",
+          "Telegram.Bot": "21.11.0"
+        },
+        "runtime": {
+          "AlabugaBots.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {},
+      "Microsoft.Extensions.Options/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives/8.0.0": {},
+      "MinimalTelegramBot/0.0.11": {
+        "dependencies": {
+          "MinimalTelegramBot.Localization.Abstractions": "0.0.11",
+          "MinimalTelegramBot.StateMachine.Abstractions": "0.0.11",
+          "Telegram.Bot": "21.11.0"
+        },
+        "runtime": {
+          "lib/net8.0/MinimalTelegramBot.dll": {
+            "assemblyVersion": "0.0.11.0",
+            "fileVersion": "0.0.11.0"
+          }
+        }
+      },
+      "MinimalTelegramBot.Localization/0.0.11": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "MinimalTelegramBot": "0.0.11",
+          "MinimalTelegramBot.Localization.Abstractions": "0.0.11",
+          "YamlDotNet": "16.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/MinimalTelegramBot.Localization.dll": {
+            "assemblyVersion": "0.0.11.0",
+            "fileVersion": "0.0.11.0"
+          }
+        }
+      },
+      "MinimalTelegramBot.Localization.Abstractions/0.0.11": {
+        "runtime": {
+          "lib/net8.0/MinimalTelegramBot.Localization.Abstractions.dll": {
+            "assemblyVersion": "0.0.11.0",
+            "fileVersion": "0.0.11.0"
+          }
+        }
+      },
+      "MinimalTelegramBot.StateMachine/0.0.11": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "MinimalTelegramBot": "0.0.11",
+          "MinimalTelegramBot.StateMachine.Abstractions": "0.0.11"
+        },
+        "runtime": {
+          "lib/net8.0/MinimalTelegramBot.StateMachine.dll": {
+            "assemblyVersion": "0.0.11.0",
+            "fileVersion": "0.0.11.0"
+          }
+        }
+      },
+      "MinimalTelegramBot.StateMachine.Abstractions/0.0.11": {
+        "runtime": {
+          "lib/net8.0/MinimalTelegramBot.StateMachine.Abstractions.dll": {
+            "assemblyVersion": "0.0.11.0",
+            "fileVersion": "0.0.11.0"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/8.0.0": {},
+      "System.Text.Json/8.0.4": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "8.0.0"
+        }
+      },
+      "Telegram.Bot/21.11.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+          "System.Text.Json": "8.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/Telegram.Bot.dll": {
+            "assemblyVersion": "21.11.0.0",
+            "fileVersion": "21.11.0.0"
+          }
+        }
+      },
+      "YamlDotNet/16.1.2": {
+        "runtime": {
+          "lib/net8.0/YamlDotNet.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.1.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AlabugaBots/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
+      "path": "microsoft.extensions.configuration.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mBMoXLsr5s1y2zOHWmKsE9veDcx8h1x/c3rz4baEdQKTeDcmQAPNbB54Pi/lhFO3K431eEq6PFbMgLaa6PHFfA==",
+      "path": "microsoft.extensions.configuration.binder/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V8S3bsm50ig6JSyrbcJJ8bW2b9QLGouz+G1miK3UTaOWmMtFwNNNzUf4AleyDWUmTrWMLNnFSLEQtxmxgNQnNQ==",
+      "path": "microsoft.extensions.dependencyinjection/8.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JOVOfqpnqlVLUzINQ2fox8evY2SKLYJ3BV8QDe/Jyp21u1T7r45x/R/5QdteURMR5r01GxeJSBBUOCOyaNXA3g==",
+      "path": "microsoft.extensions.options/8.0.0",
+      "hashPath": "microsoft.extensions.options.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0f4DMRqEd50zQh+UyJc+/HiBsZ3vhAQALgdkcQEalSH1L2isdC7Yj54M3cyo5e+BeO5fcBQ7Dxly8XiBBcvRgw==",
+      "path": "microsoft.extensions.options.configurationextensions/8.0.0",
+      "hashPath": "microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
+      "path": "microsoft.extensions.primitives/8.0.0",
+      "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    },
+    "MinimalTelegramBot/0.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-njxPEz5Ufu5M73uBKOonShk0mfZOkI6gj+axRIg3ZBY1ksOhXU3TPMpMCqoCxolM/Qnyr1nzWEvQc4UgRRrCag==",
+      "path": "minimaltelegrambot/0.0.11",
+      "hashPath": "minimaltelegrambot.0.0.11.nupkg.sha512"
+    },
+    "MinimalTelegramBot.Localization/0.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FdguWpMobMYg0rzaQMzcqVgU23E1GH19Swzik+jutPJO+ID6bwbN2gs2JhsrdbTtDZnWqa6GrA91Tl/YlSXzew==",
+      "path": "minimaltelegrambot.localization/0.0.11",
+      "hashPath": "minimaltelegrambot.localization.0.0.11.nupkg.sha512"
+    },
+    "MinimalTelegramBot.Localization.Abstractions/0.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6kCBVd9aCstCzpwHcBIbhIPME+0Y3AdSiwqqQM5PCJ4aAlk1DyWstXnXEZnL6RCE9zn8ld3EXnNIZopzk4R+eg==",
+      "path": "minimaltelegrambot.localization.abstractions/0.0.11",
+      "hashPath": "minimaltelegrambot.localization.abstractions.0.0.11.nupkg.sha512"
+    },
+    "MinimalTelegramBot.StateMachine/0.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U/TBgXsMCkryyo3KkvVKsLOQo/Zh9sH/5+oHg6sFvGPu5VXoKhvZWbwogi7/0dSNLoHCFiNnL+SI3i2Ak9c1FA==",
+      "path": "minimaltelegrambot.statemachine/0.0.11",
+      "hashPath": "minimaltelegrambot.statemachine.0.0.11.nupkg.sha512"
+    },
+    "MinimalTelegramBot.StateMachine.Abstractions/0.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qqfTyyWUtsgOPXjQl1u5l6x+URaNvh63ETo9CoqmCsZMhI+LP/bypbiDBk58knccZpx9WrrQ0WJQkMT7ETQFIw==",
+      "path": "minimaltelegrambot.statemachine.abstractions/0.0.11",
+      "hashPath": "minimaltelegrambot.statemachine.abstractions.0.0.11.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
+      "path": "system.text.encodings.web/8.0.0",
+      "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bAkhgDJ88XTsqczoxEMliSrpijKZHhbJQldhAmObj/RbrN3sU5dcokuXmWJWsdQAhiMJ9bTayWsL1C9fbbCRhw==",
+      "path": "system.text.json/8.0.4",
+      "hashPath": "system.text.json.8.0.4.nupkg.sha512"
+    },
+    "Telegram.Bot/21.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Oa7Jo2dvSYYUMLL0CT8mTSyAtII2Vnn6F+t7N1Wm4XJYgZ1NIbbNeo3EjhM6CBUONUMBpu8fyDpJM8dqdmPedw==",
+      "path": "telegram.bot/21.11.0",
+      "hashPath": "telegram.bot.21.11.0.nupkg.sha512"
+    },
+    "YamlDotNet/16.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VHBamNzHIKqkdWgYrGk48mEos+lVDFHzJyk0JiFYydoViSiCNIdoDTL3kaqAh+exQ2m2ZgZQphBgaOngR1fYjg==",
+      "path": "yamldotnet/16.1.2",
+      "hashPath": "yamldotnet.16.1.2.nupkg.sha512"
+    }
+  }
+}

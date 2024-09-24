@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "V6Cw2ry32o8=",
+  "success": true,
+  "projectFilePath": "/home/kreuz/DotNet/AlabugaBots/AlabugaBots/AlabugaBots.csproj",
+  "expectedPackageFiles": [
+    "/home/kreuz/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/microsoft.extensions.options.configurationextensions/8.0.0/microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/minimaltelegrambot/0.0.11/minimaltelegrambot.0.0.11.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/minimaltelegrambot.localization/0.0.11/minimaltelegrambot.localization.0.0.11.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/minimaltelegrambot.localization.abstractions/0.0.11/minimaltelegrambot.localization.abstractions.0.0.11.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/minimaltelegrambot.statemachine/0.0.11/minimaltelegrambot.statemachine.0.0.11.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/minimaltelegrambot.statemachine.abstractions/0.0.11/minimaltelegrambot.statemachine.abstractions.0.0.11.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/system.text.json/8.0.4/system.text.json.8.0.4.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/telegram.bot/21.11.0/telegram.bot.21.11.0.nupkg.sha512",
+    "/home/kreuz/.nuget/packages/yamldotnet/16.1.2/yamldotnet.16.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
