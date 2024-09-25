@@ -1,0 +1,17 @@
+services:
+  bot1:
+    image: bot1
+    build:
+      context: ..
+      dockerfile: AlabugaBots/Dockerfile
+    ports:
+      - 5000:8080
+    env_file: bot1.env
+  bot2:
+    image: bot2
+    build:
+      context: ..
+      dockerfile: AlabugaBots2/Dockerfile
+    ports:
+      - 6000:8080
+    env_file: bot2.env

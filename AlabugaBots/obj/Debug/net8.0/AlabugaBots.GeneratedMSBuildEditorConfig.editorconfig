@@ -17,3 +17,7 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /home/kreuz/DotNet/AlabugaBots/AlabugaBots
 build_property._RazorSourceGeneratorDebug = 
+
+[/home/kreuz/DotNet/AlabugaBots/AlabugaBots/Localization/ru.yaml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 

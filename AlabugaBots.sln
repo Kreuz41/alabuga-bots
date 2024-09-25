@@ -2,6 +2,16 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlabugaBots", "AlabugaBots\AlabugaBots.csproj", "{F9D444A4-0DE0-4172-9B10-9C3FBE998D04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlabugaBots2", "AlabugaBots2\AlabugaBots2.csproj", "{4F1CC054-6990-454A-8293-8330F0B06EFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{B74C07E8-C03B-41CA-B6CD-3ED735060501}"
+	ProjectSection(SolutionItems) = preProject
+		Build\docker-compose.yml = Build\docker-compose.yml
+		Build\.env.sample = Build\.env.sample
+		Build\bot1.env = Build\bot1.env
+		Build\bot2.env = Build\bot2.env
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +22,9 @@ Global
 		{F9D444A4-0DE0-4172-9B10-9C3FBE998D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9D444A4-0DE0-4172-9B10-9C3FBE998D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9D444A4-0DE0-4172-9B10-9C3FBE998D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1CC054-6990-454A-8293-8330F0B06EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1CC054-6990-454A-8293-8330F0B06EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1CC054-6990-454A-8293-8330F0B06EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1CC054-6990-454A-8293-8330F0B06EFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

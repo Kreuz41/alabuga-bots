@@ -15,7 +15,6 @@ var builder = BotApplication.CreateBuilder(args);
 builder.Services.AddStateMachine();
 builder.Services.AddSingleLocale(new Locale("ru"), locale => locale.EnrichFromFile("Localization/ru.yaml"));
 
-
 var app = builder.Build();
 
 app.UseStateMachine();
