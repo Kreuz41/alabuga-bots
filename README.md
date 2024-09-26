@@ -19,3 +19,8 @@ cd alabuga-bots/Build
 BotToken="123123:qweeqweqweewq"
 ChatId="-100123123123"
 ```
+
+После всех манипуляций необходимо запустить бота командой
+```
+docker compose up --build
+```
